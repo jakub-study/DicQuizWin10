@@ -15,7 +15,7 @@
 class I_Dictionary: public Dictionary
 {
     public: 
-        explicit I_Dictionary(const std::string & file_name = "DicQuiz/idic_lofw_2506.txt"); // konstruktor identyczny jak w klasie Dictionary
+        explicit I_Dictionary(const std::string & file_name = "DicQuiz/DicQuizWin10/idic_lofw_2506.txt"); // konstruktor identyczny jak w klasie Dictionary
         void add_word(); // metoda dodajaca nowy wyraz
         void delete_word_by_foreign_translation(); // metoda usuwajaca wyraz na podstawie jego obcojezycznego tlumaczenia
         void delete_word_by_number(); // metoda usuwajaca wyraz na podstawie numeru na liscie
